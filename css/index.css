@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+header {
+    height: 700px;
+    background-image: url(./../taller-1-my-fun-site/images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    height: 10%;
+    display: flex;
+    background: transparent;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+#logo {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+#parrafo-principal{
+    width: 50%;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-left: 8%;
+}
+#texto{
+    height:250px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#texto-principal{
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#imagenes{
+    height: 400px;
+    background-color: rgba(203,243,240,255);
+}
+#cards-titulo{
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+#contenedores{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+#contenedores div {
+    height: 200px;
+    width: 150px;
+    display: flex;
+    justify-content:space-around ;
+    flex-direction: column;
+    align-items: center;
+}
+#contenedores img{
+    height: 130px;
+}
+#contenedores button{
+    height: 30px;
+    width: 65px;
+    background-color: rgba(255,191,105,255);
+    border-radius: 10px;
+}
+footer{
+    height: 600px;
+    background-image: url(./../taller-1-my-fun-site/./images/bg-grid.png);
+    background-size:auto;
+    background-position: center;
+}
+#parrafo-final{
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#titulo-final{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+#texto-final{
+    height: 150px;
+    display: flex;
+    padding: 20px;
+    align-items:center;
+    justify-content: space-around;
+}
+#parrafo-2{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+#foto-final{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:flex-end;
+    align-items:flex-start;
+}
+#pie-de-pagina{
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
